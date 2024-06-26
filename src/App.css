@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.my-tasks-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+.creating-tasks-container {
+  width: 30vw;
+  background-color: #131213;
+  padding: 30px;
+  padding-top: 80px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  text-align: center;
+}
+.tags-and-tasks-list-container {
+  width: 70vw;
+  background-color: #000000;
+  padding: 10px;
+  padding-top: 80px;
+}
+.tags-list {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+}
+.task-heading {
+  color: #f3aa4e;
+  text-align: center;
+  font-size: 35px;
+}
+.label {
+  color: #f1f5f9;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.input-text {
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  outline: none;
+}
+.tags-options {
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  outline: none;
+}
+.add-task-btn {
+  height: 40px;
+  width: 120px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #f3aa4e;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 16px;
+}
+.tags-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.tag-item {
+  margin-left: 5px;
+  margin-right: 18px;
+}
+.active-btn {
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  background-color: #f3aa4e;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tag-button {
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #f3aa4e;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #f8f8f8;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tasks-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.task-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+.no-tasks-view-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.note {
+  color: #f1f5f9;
+  font-size: 30px;
+  font-weight: bold;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #1a171d;
+  margin-bottom: 15px;
+}
+.task-title {
+  color: #f8fafc;
+  font-size: 25px;
+  font-weight: bold;
+}
+.tag-category{
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f3aa4e;
+  color: #1a171d;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
